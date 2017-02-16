@@ -15,12 +15,11 @@ if ($a == 0){
 }
 else {
 	return false;
-
+ 
 }
 }
-
+                                     
 echo delen(9) . "<br>";
-
 
 
 
@@ -29,5 +28,19 @@ echo delen(9) . "<br>";
 function tekst($tekst){
 echo strrev($tekst);
 }
-echo tekst(123456789);
+echo tekst(123456789). "<br>";
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$c = 12;	// global scope
+telOp(6,7);
+echo "Jawel hoor c = ".$c;
+
+function telOp($a, $b) {
+		global $c; // verwijst naar de globale variabele $c 
+		$c = $a + $b; 
+		echo "c = ".$c."<br>";
+}
+
+
 ?>

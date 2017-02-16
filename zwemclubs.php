@@ -1,13 +1,10 @@
 <html>
 <head>
-<img src="‪Users/cihan/Desktop/school/zwemmer2.png" alt = ""/>
-
 <style>
 table, td {
 	
 	border: 1px solid black;
 	border-collapse: collapse; 
-
 }
 </style>
 </head
@@ -25,6 +22,5 @@ foreach ($zclub as $label => $aantalZwemmers) {
 </td>
 </tr>
 </table>
-
 </body>
 <html>				
